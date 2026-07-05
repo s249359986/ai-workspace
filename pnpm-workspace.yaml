@@ -1,0 +1,4 @@
+packages:
+  - 'apps/*'
+  # 如果有其他包，比如 packages/shared，也可以加在这里
+  # - 'packages/*'

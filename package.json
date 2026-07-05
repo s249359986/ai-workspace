@@ -1,0 +1,12 @@
+{
+  "name": "ai-workspace",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --filter web dev",
+    "build": "pnpm --filter web build",
+    "lint": "pnpm --filter web lint"
+  },
+  "devDependencies": {
+    "turbo": "^1.10.0" 
+  }
+}
