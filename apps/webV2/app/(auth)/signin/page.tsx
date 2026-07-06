@@ -2,6 +2,7 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation' // 用于登录后跳转
+import Cookies from 'js-cookie'
 
 
 export default function SignIn() {
@@ -38,8 +39,9 @@ export default function SignIn() {
 
       // 假设登录成功
       if (res.ok) {
-        localStorage.setItem('token', data.token)
-        router.push('/dashboard') // 登录成功后跳转
+        localStorage.setItem('token', data.token)     
+        Cookies.set('token', data.token, { expires: 7, path: '/' })   
+        router.push('/admin') // 登录成功后跳转
       } else {
         throw new Error('Invalid credentials')
       }

@@ -72,6 +72,9 @@ importers:
       aos:
         specifier: ^3.0.0-beta.6
         version: registry.npmmirror.com/aos@3.0.0-beta.6
+      js-cookie:
+        specifier: ^3.0.8
+        version: registry.npmmirror.com/js-cookie@3.0.8
       next:
         specifier: ^13.3.0
         version: registry.npmmirror.com/next@13.3.0(react-dom@18.2.0)(react@18.2.0)
@@ -91,6 +94,9 @@ importers:
       '@types/aos':
         specifier: ^3.0.4
         version: registry.npmmirror.com/@types/aos@3.0.4
+      '@types/js-cookie':
+        specifier: ^3.0.6
+        version: registry.npmmirror.com/@types/js-cookie@3.0.6
       autoprefixer:
         specifier: ^10.4.14
         version: registry.npmmirror.com/autoprefixer@10.5.2(postcss@8.5.16)
@@ -1050,6 +1056,12 @@ packages:
     resolution: {integrity: sha512-mna6Jd6bdK1NpwarLopGvXOgUoCfj0470IwLxuVOFDElTGI0JTd7xSGQ0AjbAEnHErC/b3fA9t2uB3IXVKmckA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/aos/-/aos-3.0.4.tgz}
     name: '@types/aos'
     version: 3.0.4
+    dev: true
+
+  registry.npmmirror.com/@types/js-cookie@3.0.6:
+    resolution: {integrity: sha512-wkw9yd1kEXOPnvEeEV1Go1MmxtBJL0RR79aOTAApecWFVu7w0NNXNqhcWgvw2YgZDYadliXkl14pa3WXw5jlCQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/js-cookie/-/js-cookie-3.0.6.tgz}
+    name: '@types/js-cookie'
+    version: 3.0.6
     dev: true
 
   registry.npmmirror.com/@types/json5@0.0.29:
@@ -3307,6 +3319,12 @@ packages:
     name: jiti
     version: 1.21.7
     hasBin: true
+
+  registry.npmmirror.com/js-cookie@3.0.8:
+    resolution: {integrity: sha512-yeJd4aNAdYZQjaon2bpD/Gb0B/omw7HQOsynXXcOiWVCacbBcPlgn8S/d1X6blFSaHao7ozqtW7NZW19xpCtIw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/js-cookie/-/js-cookie-3.0.8.tgz}
+    name: js-cookie
+    version: 3.0.8
+    dev: false
 
   registry.npmmirror.com/js-tokens@4.0.0:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/js-tokens/-/js-tokens-4.0.0.tgz}
